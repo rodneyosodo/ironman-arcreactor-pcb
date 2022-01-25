@@ -39,7 +39,11 @@ Check out [LICENSE](./LICENSE)
 ## Project status
 
 ![Top PCB render](assets/toppcb.png)
+
 ![Top PCB](assets/top.png)
+
 ![Bottom PCB render](assets/bottompcb.png)
+
 ![Bottom PCB](assets/bottom.png)
+
 ![Schematic](assets/schematic.png)
