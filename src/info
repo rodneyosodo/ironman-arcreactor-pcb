@@ -4,7 +4,7 @@
   "name": "ironman",
   "content": "",
   "created_at": "2022-01-20 12:07:03",
-  "updated_at": "2022-01-22 01:22:35",
+  "updated_at": "2022-01-25 19:16:02",
   "stick": "",
   "documents": [
     {
@@ -12,11 +12,9 @@
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "1c838d945e14eb2ad90eadd90e7594f5",
+      "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "0742d5983a1448cdb4f783c33bed4c29": 1,
-        "048d820bc918421089357aa634dbe7e7": 1,
         "146e75363251e035203be60c60650418": 1,
         "a621a7eb75f2c0c0c3a9af7c255b3654": 2,
         "61fa9d7b9d0315552ca965dc036134ad": 1,
@@ -25,15 +23,14 @@
         "19f3d9c92f148550c866a5de999c1275": 1,
         "353ff04a8071d3e6740fa5273965e20c": 2,
         "d19afd66eee0b7f6751eec8bbbf6b843": 2,
-        "2eb23c43f9604c0b9f6d9c533cd9582a": 1,
-        "e9e3af65fc87eef7d9725f81b11737ae": 1,
-        "ca08af595643e608d1809dd20ca56d05": 1,
-        "ead9dfd1b93942e4b0e13a2a368f17a7": 1,
-        "404aaf02c7824428a161508d0a2b8215": 9,
         "3b58d0583c6c4bb5bf80351763e4c376": 2,
-        "17eb339750ed2e3756214c176201643d": 1,
-        "e07e50d231c744efb57950a3b29dd8a2": 2,
-        "8d5c0e114c3a4c7c8295428778165279": 7
+        "17eb339750ed2e3756214c176201643d": 2,
+        "73881015b49bd6f4afaf43ddc6148b89": 1,
+        "d4a33fa3db3549dcbb420bf32337d503": 8,
+        "15453e41436d4385b37fc0607f2d82f9": 1,
+        "ca94110f4544769d36adda4b0515e409": 2,
+        "877dd3028aa44b1ebf0576773a020afa": 2,
+        "8e0cc8c3488349539ac8465c8e3e315c": 1
       },
       "BOM": [
         [
@@ -45,9 +42,9 @@
         ],
         [
           "10uF",
-          14,
+          12,
           "C0402",
-          "C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14",
+          "C1,C6,C7,C10,C11,C12,C13,C14,C15,C16,C17,C18",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer Part": "CL05A106MQ5NUNC",
@@ -56,6 +53,54 @@
             "BOM_JLCPCB Part Class": "Basic Part",
             "puuid": "0821ed6ea50c44f4909e4be7610e4198",
             "uuid": "b585d92194385de14506b560a4a27e20"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "C0402",
+          "C2,C4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL05A106MQ5NUNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C15525",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "f8eca159cd18407f9d5df374a1c2badf",
+            "uuid": "b585d92194385de14506b560a4a27e20"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "C0402",
+          "C3,C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL05B104KO5NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C1525",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "f8eca159cd18407f9d5df374a1c2badf",
+            "uuid": "ca94110f4544769d36adda4b0515e409"
+          }
+        ],
+        [
+          "12pF",
+          2,
+          "C0402",
+          "C8,C9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C359298",
+            "BOM_Manufacturer": "Darfon Elec",
+            "BOM_Manufacturer Part": "C1005NPO120JGT",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "877dd3028aa44b1ebf0576773a020afa"
           }
         ],
         [
@@ -74,25 +119,10 @@
           }
         ],
         [
-          "B5819W_C8598",
-          1,
-          "SOD-123_L2.7-W1.6-LS3.7-RD-1",
-          "D3",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "CJ",
-            "BOM_Manufacturer Part": "B5819W",
-            "BOM_Supplier Part": "C8598",
-            "BOM_JLCPCB Part Class": "Basic Part",
-            "puuid": "bbf2d74717914929b5e52e3caa0392b2",
-            "uuid": "e9e3af65fc87eef7d9725f81b11737ae"
-          }
-        ],
-        [
           "Header-Male-2.54_1x6",
-          1,
+          2,
           "HDR-TH_6P-P2.54-V-M-1",
-          "H1",
+          "H1,H2",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "BOOMELE",
@@ -119,40 +149,18 @@
           }
         ],
         [
-          "WS28115050",
-          9,
-          "WS28115050",
-          "LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9",
-          {
-            "BOM_Manufacturer Part": "",
-            "puuid": "5e31c4b0cf1f48b2992aed739992c548",
-            "uuid": "404aaf02c7824428a161508d0a2b8215"
-          }
-        ],
-        [
-          "3MMHOLE_PTH COPY",
-          2,
-          "3MMHOLE_PTH",
-          "P1,P2",
-          {
-            "BOM_Manufacturer Part": "",
-            "puuid": "254dacea44314aeaae2c72ca86f68b10",
-            "uuid": "e07e50d231c744efb57950a3b29dd8a2"
-          }
-        ],
-        [
-          "CJ2301 S1",
-          1,
-          "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
-          "Q1",
+          "XL-3528RGBW-WS2812B",
+          8,
+          "LED-SMD_4P-L3.5-W2.8-BR-1",
+          "LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "CJ",
-            "BOM_Manufacturer Part": "CJ2301 S1",
-            "BOM_Supplier Part": "C8547",
+            "BOM_Supplier Part": "C2890364",
+            "BOM_Manufacturer": "XINGLIGHT(成兴光)",
+            "BOM_Manufacturer Part": "XL-3528RGBW-WS2812B",
             "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "1fb6146406a34819a86e33d73e7677db",
-            "uuid": "ca08af595643e608d1809dd20ca56d05"
+            "puuid": "e6da1daf17c44c47808e549d42130ce3",
+            "uuid": "d4a33fa3db3549dcbb420bf32337d503"
           }
         ],
         [
@@ -216,21 +224,6 @@
           }
         ],
         [
-          "100K",
-          1,
-          "R0603",
-          "R7",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C100048",
-            "BOM_Manufacturer": "YAGEO",
-            "BOM_Manufacturer Part": "RC0603JR-07100KL",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "ead9dfd1b93942e4b0e13a2a368f17a7"
-          }
-        ],
-        [
           "SKRKAEE020",
           1,
           "SW-SMD_L3.9-W3.0-P4.45",
@@ -246,59 +239,33 @@
           }
         ],
         [
-          "TEST PINS",
-          7,
-          "TESTPIN",
-          "TP1,TP2,TP3,TP4,TP5,TP6,TP7",
-          {
-            "BOM_Manufacturer Part": "",
-            "puuid": "1c43f9ba5ffa416c9be892809f597e8e",
-            "uuid": "8d5c0e114c3a4c7c8295428778165279"
-          }
-        ],
-        [
-          "MIC5225-3.3YM5-TR",
+          "AMS1117S-3.3",
           1,
-          "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+          "SOT-89-3_L4.5-W2.5-P1.50-LS4.1-BR",
           "U1",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C512101",
-            "BOM_Manufacturer": "Microchip Tech",
-            "BOM_Manufacturer Part": "MIC5225-3.3YM5-TR",
+            "BOM_Supplier Part": "C917152",
+            "BOM_Manufacturer": "JSMSEMI",
+            "BOM_Manufacturer Part": "AMS1117S-3.3",
             "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "e7f085e4f71344109c090040716070ab",
-            "uuid": "048d820bc918421089357aa634dbe7e7"
+            "puuid": "f362b0d0cde14366b93e1e3818c9c2b2",
+            "uuid": "8e0cc8c3488349539ac8465c8e3e315c"
           }
         ],
         [
-          "S2B-PH-K-S(LF)(SN)",
+          "ATTINY24A-SSU",
           1,
-          "CONN-TH_S2B-PH-K-S-LF-SN",
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
           "U2",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C173752",
-            "BOM_Manufacturer": "JST Sales America",
-            "BOM_Manufacturer Part": "S2B-PH-K-S(LF)(SN)",
+            "BOM_Manufacturer": "ATMEL",
+            "BOM_Manufacturer Part": "ATTINY24A-SSU",
+            "BOM_Supplier Part": "C8726",
             "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "e28e7df1e91043b2b01b5f07136d18b1",
-            "uuid": "2eb23c43f9604c0b9f6d9c533cd9582a"
-          }
-        ],
-        [
-          "ATTINY85-20SU",
-          1,
-          "SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL",
-          "U3",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "MICROCHIP",
-            "BOM_Manufacturer Part": "ATTINY85-20SU",
-            "BOM_Supplier Part": "C89852",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "fdf2396de7694c3e8177c1c94fe2bbcd",
-            "uuid": "0742d5983a1448cdb4f783c33bed4c29"
+            "puuid": "0f2364c02f094100b1b3205c9d829099",
+            "uuid": "73881015b49bd6f4afaf43ddc6148b89"
           }
         ],
         [
@@ -314,13 +281,28 @@
             "puuid": "0213856b1ac9498c9a987141e7914387",
             "uuid": "146e75363251e035203be60c60650418"
           }
+        ],
+        [
+          "16MHz",
+          1,
+          "CRYSTAL-SMD_4P-L3.2-W2.5-BL",
+          "X1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C390767",
+            "BOM_Manufacturer": "JGHC",
+            "BOM_Manufacturer Part": "S3216000091060",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9e297fbdb6c24ee39419d7ac96617dbf",
+            "uuid": "15453e41436d4385b37fc0607f2d82f9"
+          }
         ]
       ],
-      "updateTime": 1642803755,
+      "updateTime": 1643126842,
       "createTime": 1642669623,
       "histories": [],
       "created_at": "2022-01-20 12:07:03",
-      "updated_at": "2022-01-22 01:22:35"
+      "updated_at": "2022-01-25 19:07:22"
     },
     {
       "uuid": "24f385ff785e3422555496d5b59d2499",
@@ -332,28 +314,25 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "1c43f9ba5ffa416c9be892809f597e8e": 7,
-        "c52379bcde4d4d2fb926e8bbd5467783": 2,
-        "bbf2d74717914929b5e52e3caa0392b2": 1,
-        "254dacea44314aeaae2c72ca86f68b10": 2,
-        "6200581e048848138c6a279857b8523f": 1,
+        "f362b0d0cde14366b93e1e3818c9c2b2": 1,
+        "fd9fc9865419407ab6a588b47dec0227": 2,
+        "f8eca159cd18407f9d5df374a1c2badf": 4,
+        "e6da1daf17c44c47808e549d42130ce3": 8,
+        "9e297fbdb6c24ee39419d7ac96617dbf": 1,
         "0821ed6ea50c44f4909e4be7610e4198": 14,
-        "fd9fc9865419407ab6a588b47dec0227": 1,
-        "5e31c4b0cf1f48b2992aed739992c548": 9,
+        "0f2364c02f094100b1b3205c9d829099": 1,
+        "c52379bcde4d4d2fb926e8bbd5467783": 2,
+        "6200581e048848138c6a279857b8523f": 1,
         "af16510a196f45a3b2eecfb1ed8360c1": 2,
-        "1fb6146406a34819a86e33d73e7677db": 1,
-        "398691f1f785460098bbe5ee6590333c": 7,
-        "e7f085e4f71344109c090040716070ab": 1,
-        "e28e7df1e91043b2b01b5f07136d18b1": 1,
-        "fdf2396de7694c3e8177c1c94fe2bbcd": 1,
+        "398691f1f785460098bbe5ee6590333c": 6,
         "0213856b1ac9498c9a987141e7914387": 1
       },
       "BOM": [],
-      "updateTime": 1642803621,
+      "updateTime": 1643127362,
       "createTime": 1642707858,
       "histories": [],
       "created_at": "2022-01-20 22:44:18",
-      "updated_at": "2022-01-22 01:20:21"
+      "updated_at": "2022-01-25 19:16:02"
     }
   ],
   "sort": [
@@ -363,5 +342,5 @@
   "title": "ironman",
   "foldername": "ironman",
   "schfilename": "ironman.json",
-  "schfilemtime": 1642803755182
+  "schfilemtime": 1643126842399
 }
