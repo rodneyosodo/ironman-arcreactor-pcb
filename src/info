@@ -4,7 +4,7 @@
   "name": "ironman",
   "content": "",
   "created_at": "2022-01-20 12:07:03",
-  "updated_at": "2022-01-25 19:16:02",
+  "updated_at": "2022-07-17 22:02:27",
   "stick": "",
   "documents": [
     {
@@ -16,21 +16,16 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "146e75363251e035203be60c60650418": 1,
-        "a621a7eb75f2c0c0c3a9af7c255b3654": 2,
-        "61fa9d7b9d0315552ca965dc036134ad": 1,
-        "f042950185574e4991e9cc2e207081a5": 1,
+        "f042950185574e4991e9cc2e207081a5": 2,
         "b585d92194385de14506b560a4a27e20": 14,
-        "19f3d9c92f148550c866a5de999c1275": 1,
+        "19f3d9c92f148550c866a5de999c1275": 5,
         "353ff04a8071d3e6740fa5273965e20c": 2,
         "d19afd66eee0b7f6751eec8bbbf6b843": 2,
-        "3b58d0583c6c4bb5bf80351763e4c376": 2,
         "17eb339750ed2e3756214c176201643d": 2,
-        "73881015b49bd6f4afaf43ddc6148b89": 1,
         "d4a33fa3db3549dcbb420bf32337d503": 8,
-        "15453e41436d4385b37fc0607f2d82f9": 1,
-        "ca94110f4544769d36adda4b0515e409": 2,
-        "877dd3028aa44b1ebf0576773a020afa": 2,
-        "8e0cc8c3488349539ac8465c8e3e315c": 1
+        "ca94110f4544769d36adda4b0515e409": 3,
+        "8e0cc8c3488349539ac8465c8e3e315c": 1,
+        "b5953d65a4054165b11dfc39ebcbd953": 1
       },
       "BOM": [
         [
@@ -42,9 +37,9 @@
         ],
         [
           "10uF",
-          12,
+          11,
           "C0402",
-          "C1,C6,C7,C10,C11,C12,C13,C14,C15,C16,C17,C18",
+          "C1,C6,C9,C10,C11,C12,C13,C14,C15,C16,C17",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer Part": "CL05A106MQ5NUNC",
@@ -57,9 +52,9 @@
         ],
         [
           "10uF",
-          2,
+          3,
           "C0402",
-          "C2,C4",
+          "C2,C4,C7",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer Part": "CL05A106MQ5NUNC",
@@ -74,9 +69,9 @@
         ],
         [
           "100nF",
-          2,
+          3,
           "C0402",
-          "C3,C5",
+          "C3,C5,C8",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer Part": "CL05B104KO5NNNC",
@@ -90,32 +85,18 @@
           }
         ],
         [
-          "12pF",
+          "SKRKAEE020",
           2,
-          "C0402",
-          "C8,C9",
+          "SW-SMD_L3.9-W3.0-P4.45",
+          "FLASH,RST",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C359298",
-            "BOM_Manufacturer": "Darfon Elec",
-            "BOM_Manufacturer Part": "C1005NPO120JGT",
-            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
-            "uuid": "877dd3028aa44b1ebf0576773a020afa"
-          }
-        ],
-        [
-          "MM1Z3B3",
-          2,
-          "SOD-123_L2.8-W1.8-LS3.7-FD",
-          "D1,D2",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "SEMTECH",
-            "BOM_Manufacturer Part": "MM1Z3B3",
-            "BOM_Supplier Part": "C108453",
+            "BOM_Manufacturer": "ALPS",
+            "BOM_Manufacturer Part": "SKRKAEE020",
+            "BOM_Supplier Part": "C115357",
             "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "c52379bcde4d4d2fb926e8bbd5467783",
-            "uuid": "3b58d0583c6c4bb5bf80351763e4c376"
+            "puuid": "6200581e048848138c6a279857b8523f",
+            "uuid": "f042950185574e4991e9cc2e207081a5"
           }
         ],
         [
@@ -165,9 +146,9 @@
         ],
         [
           "10K",
-          1,
+          2,
           "R0603",
-          "R1",
+          "R1,R4",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "UniOhm",
@@ -194,48 +175,18 @@
           }
         ],
         [
-          "1.5K",
-          1,
+          "10kΩ",
+          3,
           "R0603",
-          "R4",
+          "R5,R6,R7",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "UniOhm",
-            "BOM_Manufacturer Part": "0603WAF1501T5E",
-            "BOM_Supplier Part": "C22843",
-            "BOM_JLCPCB Part Class": "Basic Part",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "61fa9d7b9d0315552ca965dc036134ad"
-          }
-        ],
-        [
-          "68.1",
-          2,
-          "R0603",
-          "R5,R6",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "UniOhm",
-            "BOM_Manufacturer Part": "0603WAF681JT5E",
-            "BOM_Supplier Part": "C23097",
+            "BOM_Manufacturer Part": "0603WAJ0103T5E",
+            "BOM_Supplier Part": "C15401",
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "a621a7eb75f2c0c0c3a9af7c255b3654"
-          }
-        ],
-        [
-          "SKRKAEE020",
-          1,
-          "SW-SMD_L3.9-W3.0-P4.45",
-          "RST",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "ALPS",
-            "BOM_Manufacturer Part": "SKRKAEE020",
-            "BOM_Supplier Part": "C115357",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "6200581e048848138c6a279857b8523f",
-            "uuid": "f042950185574e4991e9cc2e207081a5"
+            "uuid": "19f3d9c92f148550c866a5de999c1275"
           }
         ],
         [
@@ -254,18 +205,18 @@
           }
         ],
         [
-          "ATTINY24A-SSU",
+          "ESP-12F(ESP8266MOD)",
           1,
-          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "WIFIM-SMD_ESP-12F-ESP8266MOD",
           "U2",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "ATMEL",
-            "BOM_Manufacturer Part": "ATTINY24A-SSU",
-            "BOM_Supplier Part": "C8726",
+            "BOM_Manufacturer": "Ai-Thinker",
+            "BOM_Manufacturer Part": "ESP-12F(ESP8266MOD)",
+            "BOM_Supplier Part": "C82891",
             "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "0f2364c02f094100b1b3205c9d829099",
-            "uuid": "73881015b49bd6f4afaf43ddc6148b89"
+            "puuid": "21bb26c585544e17a64bb2b57131b3de",
+            "uuid": "b5953d65a4054165b11dfc39ebcbd953"
           }
         ],
         [
@@ -281,28 +232,13 @@
             "puuid": "0213856b1ac9498c9a987141e7914387",
             "uuid": "146e75363251e035203be60c60650418"
           }
-        ],
-        [
-          "16MHz",
-          1,
-          "CRYSTAL-SMD_4P-L3.2-W2.5-BL",
-          "X1",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C390767",
-            "BOM_Manufacturer": "JGHC",
-            "BOM_Manufacturer Part": "S3216000091060",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "9e297fbdb6c24ee39419d7ac96617dbf",
-            "uuid": "15453e41436d4385b37fc0607f2d82f9"
-          }
         ]
       ],
-      "updateTime": 1643126842,
+      "updateTime": 1658084336,
       "createTime": 1642669623,
       "histories": [],
       "created_at": "2022-01-20 12:07:03",
-      "updated_at": "2022-01-25 19:07:22"
+      "updated_at": "2022-07-17 21:58:56"
     },
     {
       "uuid": "24f385ff785e3422555496d5b59d2499",
@@ -314,25 +250,51 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "f8eca159cd18407f9d5df374a1c2badf": 6,
+        "0821ed6ea50c44f4909e4be7610e4198": 11,
+        "398691f1f785460098bbe5ee6590333c": 7,
+        "21bb26c585544e17a64bb2b57131b3de": 1,
+        "6200581e048848138c6a279857b8523f": 2,
+        "af16510a196f45a3b2eecfb1ed8360c1": 2,
         "f362b0d0cde14366b93e1e3818c9c2b2": 1,
         "fd9fc9865419407ab6a588b47dec0227": 2,
-        "f8eca159cd18407f9d5df374a1c2badf": 4,
         "e6da1daf17c44c47808e549d42130ce3": 8,
-        "9e297fbdb6c24ee39419d7ac96617dbf": 1,
-        "0821ed6ea50c44f4909e4be7610e4198": 14,
-        "0f2364c02f094100b1b3205c9d829099": 1,
-        "c52379bcde4d4d2fb926e8bbd5467783": 2,
-        "6200581e048848138c6a279857b8523f": 1,
-        "af16510a196f45a3b2eecfb1ed8360c1": 2,
-        "398691f1f785460098bbe5ee6590333c": 6,
         "0213856b1ac9498c9a987141e7914387": 1
       },
       "BOM": [],
-      "updateTime": 1643127362,
+      "updateTime": 1658084445,
       "createTime": 1642707858,
       "histories": [],
       "created_at": "2022-01-20 22:44:18",
-      "updated_at": "2022-01-25 19:16:02"
+      "updated_at": "2022-07-17 22:00:45"
+    },
+    {
+      "uuid": "f59ff6f5916c3832cb3c0574fbec67fa",
+      "puuid": "a8bef803e78c230b7c4486cb8f86d478",
+      "title": "smoothened",
+      "filename": "smoothened.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8eca159cd18407f9d5df374a1c2badf": 6,
+        "0821ed6ea50c44f4909e4be7610e4198": 11,
+        "398691f1f785460098bbe5ee6590333c": 7,
+        "21bb26c585544e17a64bb2b57131b3de": 1,
+        "6200581e048848138c6a279857b8523f": 2,
+        "af16510a196f45a3b2eecfb1ed8360c1": 2,
+        "f362b0d0cde14366b93e1e3818c9c2b2": 1,
+        "fd9fc9865419407ab6a588b47dec0227": 2,
+        "e6da1daf17c44c47808e549d42130ce3": 8,
+        "0213856b1ac9498c9a987141e7914387": 1
+      },
+      "BOM": [],
+      "updateTime": 1658084547,
+      "createTime": 1658084179,
+      "histories": [],
+      "created_at": "2022-07-17 21:56:19",
+      "updated_at": "2022-07-17 22:02:27"
     }
   ],
   "sort": [
@@ -342,5 +304,5 @@
   "title": "ironman",
   "foldername": "ironman",
   "schfilename": "ironman.json",
-  "schfilemtime": 1643126842399
+  "schfilemtime": 1658084336151
 }
